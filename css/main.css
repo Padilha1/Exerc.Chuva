@@ -9,6 +9,9 @@ body {
   font-family: 'Roboto', 'Quicksand';
 }
 
+/*********************
+        MENU 
+*********************/
 .left-menu {
   position: absolute;
   left: 0;
@@ -78,5 +81,105 @@ body {
   height: 33px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FFB455), to(#ED7839));
   background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
+/*********************
+        HEADER
+*********************/
+.header {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1146px;
+  height: 68px;
+  margin-left: 261px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.header h3 {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #725C5C;
+}
+
+.header span {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #725C5C;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  left: 1100px;
+  top: 20px;
+}
+
+.header .container .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 107px;
+  height: 34px;
+  padding: 15px;
+  margin-right: 120px;
+  border: 1px solid #CCCCCC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.header .container .language .lang-icon {
+  width: 20px;
+}
+
+.header .container .language .dropdown {
+  width: 10px;
+}
+
+.header .container .login {
+  width: 202px;
+  height: 34px;
+  font-family: 'Quicksand';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: right;
+  color: #333333;
+  border: none;
+}
+
+.header .container .login .person {
+  border-radius: 50px;
+  position: absolute;
+  left: 101.05%;
+  right: 3.3%;
+  top: 6.48%;
+  bottom: 27.48%;
+}
+
+.header .container .login .notification {
+  position: absolute;
+  left: 105.81%;
+  right: 53.14%;
+  top: 6%;
+  bottom: 57.35%;
 }
 /*# sourceMappingURL=main.css.map */
