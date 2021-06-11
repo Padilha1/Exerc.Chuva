@@ -322,6 +322,46 @@
     }
 }
 
+.resume {
+    position: absolute;
+    width: 1058px;
+    height: 189px;
+    left: 270px;
+    top: 642px;
+    background: #FDF1EB;
+    border: 3px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    color: #4e4e4e;
+    font-family: 'Quicksand';
+    
+
+    h3 {
+        padding: 15px;
+        border-bottom: 3px solid #ECECEC ;
+        font-family: 'Roboto';
+        font-weight: 700;
+    }
+
+    p {
+        padding: 15px;
+        font-weight: 400;
+        #verMais {
+            border: none;
+            color: $color-primary;
+            font-size: 17px;
+        }
+        #mais {
+            display: none;
+        }
+        #menos{
+            display: none;
+            border: none;
+            color: $color-primary;
+            font-size: 17px;
+        }
+    }
+}
+
 
 
 
@@ -336,13 +376,12 @@
 *********************/
 footer {
     position: absolute;
-    width:1086px;
-    left: 14%;
-    right: 0%;
-    bottom: 0%;
+    width: 1146px;
+    height: 181px;
+    left: 270px;
+    top: 1520px;
     
-
-    background: url(footer.png);
+    
 }
 
 

@@ -363,15 +363,56 @@ body {
   line-height: 16,8px;
 }
 
+.resume {
+  position: absolute;
+  width: 1058px;
+  height: 189px;
+  left: 270px;
+  top: 642px;
+  background: #FDF1EB;
+  border: 3px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+  color: #4e4e4e;
+  font-family: 'Quicksand';
+}
+
+.resume h3 {
+  padding: 15px;
+  border-bottom: 3px solid #ECECEC;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.resume p {
+  padding: 15px;
+  font-weight: 400;
+}
+
+.resume p #verMais {
+  border: none;
+  color: #ED7839;
+  font-size: 17px;
+}
+
+.resume p #mais {
+  display: none;
+}
+
+.resume p #menos {
+  display: none;
+  border: none;
+  color: #ED7839;
+  font-size: 17px;
+}
+
 /*********************
         FOOTER
 *********************/
 footer {
   position: absolute;
-  width: 1086px;
-  left: 14%;
-  right: 0%;
-  bottom: 0%;
-  background: url(footer.png);
+  width: 1146px;
+  height: 181px;
+  left: 270px;
+  top: 1520px;
 }
 /*# sourceMappingURL=main.css.map */
