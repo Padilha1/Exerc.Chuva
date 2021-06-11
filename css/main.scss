@@ -92,9 +92,8 @@
     
     .container {
         display: flex;
-        justify-content:flex-end;
         position: absolute;
-        left: 1100px;
+        left: 1360px;
         top: 20px;
 
         .language {
@@ -147,4 +146,208 @@
     }
 
 }
+
+/*********************
+        CONTENT
+*********************/
+
+.start {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+    font-family: 'Roboto';
+
+    .title{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;        
+        letter-spacing: 0.05em;
+        color:$color-primary;
+        margin-right: 600px;
+    }
+    button  {
+        margin: 3px;
+    }
+    .download {
+        width: 100px;
+        height: 37px;
+        background-color: $color-primary;
+        border-radius: 4px;
+        color: white;
+        border:none;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .fav {
+        width: 50px;
+        height: 37px;
+        background-color: $color-primary;
+        border-radius: 4px;
+        color: white;
+        border:none;
+    }
+    .doi {
+        width: 50px;
+        height: 37px;
+        background-color: $color-primary;
+        border-radius: 4px;
+        color: white;
+        border:none;
+    }
+    .quote {
+        position: absolute;
+        width: 225px;
+        height: 25px;
+        left: 1610px;
+        right: 0px;
+        top: 143px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: $color-primary;
+    }
+
+    .video {
+        position: absolute;
+        width: 783px;
+        height: 439px;
+        left: 270px;
+        top: 163px;
+        background: rgba(141, 53, 6, 0.178);
+        border-radius: 3px;
+    }
+
+    .subtitle {
+        width:734px;
+        height: 54px;
+        position: absolute;
+        left: 294px;
+        right: 291px;
+        top: 188px;
+        color: white;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+    }
+
+    .Scott {
+        position: absolute;
+        left: 15.45%;
+        right: 5.45%;
+        top: 48.95%;
+        bottom: 4.95%;
+    }
+
+    .bea {
+        position: absolute;
+        height: 36px;
+        left: 400px;
+        right: 473px;
+        top: 474px;
+    
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: white;
+    }
+    .uni {
+        position: absolute;
+        height: 27px;
+        left: 401px;
+        right: 506px;
+        top: 509px;
+        
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: white;
+    }
+
+    .detail {
+        position: absolute;
+        width: 242px;
+        height: 439px;
+        left: 1566px;
+        top: 183px; 
+        background: #FDF1EB;
+        border: 2px solid #ECECEC;
+        border-radius: 3px 3px 0px 0px;
+        color: #4e4e4e;
+
+        h4 {
+            border-bottom: 1px solid #ECECEC;
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            display: flex;
+            align-items: center;
+            padding: 10px 5px;
+        
+        }
+
+        p {
+            padding: 15px 15px;
+        }
+
+        .presentation {
+            font-family: 'Quicksand';
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 14px;
+            letter-spacing: 0.02em;            
+        }
+
+        .autors {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22,75px;
+        }
+
+        .Unis {
+            font-size: 12px;
+            color: #4e4e4eb6;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16,8px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*********************
+        FOOTER
+*********************/
+footer {
+    position: absolute;
+    width:1086px;
+    left: 14%;
+    right: 0%;
+    bottom: 0%;
+    
+
+    background: url(footer.png);
+}
+
+
+
+
+
+
 
