@@ -13,10 +13,9 @@ body {
         MENU 
 *********************/
 .left-menu {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
-  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,7 +73,7 @@ body {
 .left-menu .nav li span {
   position: absolute;
   left: 0;
-  top: 49.80%;
+  top: 87.00%;
   right: 97.73%;
   bottom: 5.71%;
   width: 5px;
@@ -87,14 +86,9 @@ body {
         HEADER
 *********************/
 .header {
-  display: block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 1146px;
   height: 68px;
   margin-left: 261px;
-  margin-bottom: 20px;
   padding: 10px;
 }
 
@@ -119,7 +113,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  left: 1360px;
+  left: 1100px;
   top: 20px;
 }
 
@@ -188,7 +182,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
-  margin-left: 300px;
+  margin-left: 280px;
   font-family: 'Roboto';
 }
 
@@ -198,7 +192,7 @@ body {
   line-height: 25px;
   letter-spacing: 0.05em;
   color: #ED7839;
-  margin-right: 600px;
+  margin-right: 340px;
 }
 
 .start button {
@@ -238,7 +232,7 @@ body {
   position: absolute;
   width: 225px;
   height: 25px;
-  left: 1610px;
+  left: 1350px;
   right: 0px;
   top: 143px;
   font-weight: 500;
@@ -254,7 +248,7 @@ body {
   width: 783px;
   height: 439px;
   left: 270px;
-  top: 163px;
+  top: 183px;
   background: rgba(141, 53, 6, 0.178);
   border-radius: 3px;
 }
@@ -265,7 +259,7 @@ body {
   position: absolute;
   left: 294px;
   right: 291px;
-  top: 188px;
+  top: 198px;
   color: white;
   font-weight: 900;
   font-size: 24px;
@@ -275,8 +269,8 @@ body {
 
 .start .Scott {
   position: absolute;
-  left: 15.45%;
-  right: 5.45%;
+  left: 14.70%;
+  right: 8.45%;
   top: 48.95%;
   bottom: 4.95%;
 }
@@ -284,7 +278,7 @@ body {
 .start .bea {
   position: absolute;
   height: 36px;
-  left: 400px;
+  left: 380px;
   right: 473px;
   top: 474px;
   font-weight: 900;
@@ -297,7 +291,7 @@ body {
 .start .uni {
   position: absolute;
   height: 27px;
-  left: 401px;
+  left: 382px;
   right: 506px;
   top: 509px;
   font-weight: 900;
@@ -311,7 +305,7 @@ body {
   position: absolute;
   width: 242px;
   height: 439px;
-  left: 1566px;
+  left: 1366px;
   top: 183px;
   background: #FDF1EB;
   border: 2px solid #ECECEC;
@@ -363,6 +357,9 @@ body {
   line-height: 16,8px;
 }
 
+/*********************
+        RESUME
+*********************/
 .resume {
   position: absolute;
   width: 1058px;
@@ -406,6 +403,204 @@ body {
 }
 
 /*********************
+        DISCUSSION
+*********************/
+.discussion {
+  position: absolute;
+  width: 1058px;
+  height: 621px;
+  left: 270px;
+  top: 891px;
+  border: 3px solid #ECECEC;
+  background: #FDF1EB;
+}
+
+.discussion h3 {
+  padding: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #4E4E4E;
+  border-bottom: 3px solid #ECECEC;
+}
+
+.discussion h4 {
+  color: #ED7839;
+}
+
+.discussion .topic {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 3px solid #ECECEC;
+}
+
+.discussion .topic h4 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.discussion .topic .icon1, .discussion .topic .icon2, .discussion .topic .icon3 {
+  padding: 20px 20px;
+}
+
+.discussion .topic p {
+  padding-top: 10px;
+  font-family: 'Quicksand';
+  color: #595959;
+}
+
+.discussion .topic #topic {
+  font-family: 'Quicksand';
+  font-weight: bold;
+  font-size: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6a04c), to(#F0813D));
+  background: linear-gradient(180deg, #e6a04c, #F0813D);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.discussion .topic2 {
+  display: none;
+}
+
+.discussion .topic2 h5 {
+  padding-top: 10px;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.discussion .topic2 h4 {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.discussion .topic2 form {
+  display: block;
+  text-align: start;
+  padding: 20px;
+}
+
+.discussion .topic2 .input {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  width: 1025px;
+  height: 39px;
+}
+
+.discussion .topic2 textarea {
+  width: 1025px;
+  height: 82px;
+}
+
+.discussion .topic2 button {
+  padding: 0;
+  width: 205px;
+  height: 31px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6a04c), to(#F0813D));
+  background: linear-gradient(180deg, #e6a04c, #F0813D);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  margin-left: 820px;
+}
+
+.discussion .topic3 {
+  display: none;
+  text-align: center;
+  font-family: 'Quicksand';
+  padding: 20px;
+}
+
+.discussion .topic3 h4 {
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.discussion .topic3 P {
+  margin: 20px 0;
+}
+
+.discussion .topic3 a {
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #F48F44;
+  margin-left: 420px;
+}
+
+.discussion .topic3 button {
+  margin-top: 40px;
+  margin-left: 410px;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6a04c), to(#F0813D));
+  background: linear-gradient(180deg, #e6a04c, #F0813D);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 190px;
+  height: 31px;
+}
+
+.discussion .coment {
+  padding: 20px;
+  font-family: 'Quicksand';
+  display: block;
+  margin: auto;
+}
+
+.discussion .coment h4 {
+  color: #ED7839;
+}
+
+.discussion .coment h6 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.discussion .coment p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.discussion .coment span {
+  font-family: 'Segoe UI';
+}
+
+.discussion .coment .cardFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 165px;
+  height: 19px;
+}
+
+/*********************
         FOOTER
 *********************/
 footer {
@@ -413,6 +608,6 @@ footer {
   width: 1146px;
   height: 181px;
   left: 270px;
-  top: 1520px;
+  top: 1620px;
 }
 /*# sourceMappingURL=main.css.map */
