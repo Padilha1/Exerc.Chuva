@@ -3,6 +3,10 @@
     var menos=document.getElementById("menos");
 
 
+    var enviar=document.getElementById("Enviar");
+    var divT1=document.getElementById("divTopic1");
+    var success=document.getElementById("success");
+
 function leiaMais() {
 
     if (verMais.style.display === "none") {
@@ -21,3 +25,15 @@ function leiaMenos() {
     menos.style.display="none";
     verMais.style.display="inline";
 }
+
+function criarTopic(){
+    divT1.style.display ="none";
+    enviar.style.display="inline";
+    success.style.display="none";
+}
+
+function confirmado(){
+    enviar.style.display ="none";
+    success.style.display="inline";
+}
+
